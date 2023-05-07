@@ -33,7 +33,10 @@ class Resume extends Component {
         return (
           <li key={skills.name}>
             <span style={{ width: skills.level }} className={className}></span>
-            <em>{skills.name}</em>
+            <em class="skillsDesc">
+              <img src={skills.url} class="skillsLogo"/>
+              <p class="skillsName">{skills.name}</p>
+            </em>
           </li>
         );
       });
@@ -58,7 +61,7 @@ class Resume extends Component {
         <div className="row work">
           <div className="three columns header-col">
             <h1>
-              <span>Internships</span>
+              <span>Work Experience</span>
             </h1>
           </div>
 

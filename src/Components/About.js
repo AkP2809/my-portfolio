@@ -41,15 +41,14 @@ class About extends Component {
                     {city} {state}, {zip}
                   </span>
                   <br />
-                  <span>{phone}</span>
-                  <br />
                   <span>{email}</span>
                 </p>
               </div>
               <div className="columns download">
                 <p>
                   <a
-                    href="https://docs.google.com/document/d/e/2PACX-1vSI2zrX6-vcml1Z4xR8lbWdqrbmc4IEy9FCabCgxkTAyVfRo2I-q7L-gbkx3ueGnYjGFf1uFJudI3cl/pub"
+                    href="https://1drv.ms/b/s!Ai-XdFOCUVsHlkIOEfHMAR4rHbHO?e=cwSccT"
+                    target="__blank"
                     className="button"
                   >
                     <i className="fa fa-external-link"></i>View Resume

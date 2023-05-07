@@ -2,9 +2,9 @@
   "main": {
     "name": "Armaan Khan",
     "occupation": "Full-Stack Developer & Enthusiastic Programmer",
-    "description": "Currently, Campus Ambassador @ Internshala Student Partner, ISP'19 & Software Intern @ The Sparks Foundation!",
+    "description": "Working as a Software Developer @TCSL",
     "image": "profile.jpg",
-    "bio": "Techinal Tastes - Full Stack Development & Competitive Programming | Enthusiastic by nature | Exploring new Magical Spells @Techical Hogwarts! ;)",
+    "bio": "Full Stack Development | Competitive Programming | Foodie | Gaming | Exploring New Places | Exploring new Magical Spells @Techical Hogwarts! ;)",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
     "email": "armaankp2128@gmail.com",
     "phone": "+91 7567697096",
@@ -28,11 +28,6 @@
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com/armaan_khan2809/",
-        "className": "fa fa-instagram"
-      },
-      {
         "name": "github",
         "url": "https://github.com/AkP2809",
         "className": "fa fa-github"
@@ -43,98 +38,146 @@
     "skillmessage": "",
     "education": [
       {
-        "school": "Marwadi Education Foundation Group of Institutions (MEFGI)",
-        "degree": "Bachelor's of Engineering in Information Technlogy (B.E IT)",
-        "graduated": "July-2019 to May-2021",
-        "description": "Currently Pursuing"
+        "school": "Marwadi Education Foundation Group of Institutions (MEFGI), Rajkot",
+        "degree": "Bachelor's of Engineering in Information Technlogy",
+        "graduated": "July 2021",
+        "description": "CGPA: 9.75"
       },
       {
-        "school": "Lok Jagruti Institute of Engineering and Technology (LJIET)",
-        "degree": "Bachelor's of Engineering in Information Technlogy (B.E IT)",
-        "graduated": "August-2017 to June-2019",
-        "description": "Cleared with Distinction"
+        "school": "Air Force School, Jamnagar",
+        "degree": "H.S.C",
+        "graduated": "May 2017",
+        "description": "Result: 90%"
+      },
+      {
+        "school": "Air Force School, Jamnagar",
+        "degree": "S.S.C",
+        "graduated": "April 2015",
+        "description": "CGPA: 9.4"
       }
     ],
     "work": [
       {
-        "company": "Internshala",
-        "title": "Internshala Student Partner, ISP'19",
-        "years": "August-2020 to November-2020",
-        "description": "Campus Ambassador of my college as a part of ISP'19"
+        "company": "TATA Consultancy Services Ltd",
+        "title": "Software Developer",
+        "years": "July'21 - Present",
+        "description": "• Automated test scripts using Selenium framework and developed multiple regression suites • Created RESTful APIs in Spring Boot and new functionalities to reduce manual work and improve working efficiency of the system • Fixed and optimized existing code flows for performance and memory improvements • Developed Automation Tools for Regression Team of more than 200+ people • Developed Angular Pages for a team of more than 200+ people • Developed APIs in ASP.NET C#; consumed in web application • Built Scheduled Jobs in Spring Boot to fetch latest data from APIs • Added new features and optimized TDA Warehouse Spring Boot framework for 200+ team members to reduce manpower up to 2,500 hours a month."
       },
       {
         "company": "The Sparks Foundation",
         "title": "GRIP - Graduate Rotational Internship Program",
-        "years": "September-2020 to November-2020",
-        "description": "Working as a Software Intern"
-      },
-      {
-        "company": "Internship Studio",
-        "title": "Machine Learning Internship",
-        "years": "June-2020 to September-2020",
-        "description": "Working as a ML Intern"
+        "years": "September'20 - November'20",
+        "description": "• Developed a donation portal using InstaMojo Payment Gateway API to accept donations with email receipt functionality using Bootstrap, PHP and MySQL • Developed an Android Application to support OAuth mechanism for Twitter and Facebook logins • Researched about Facebook and Twitter open APIs to integrate them with the android application"
       }
     ],
     "skills": [
       {
-        "name": "Java SE",
-        "level": "90%"
+        "name": "JAVA SE",
+        "level": "90%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
       },
       {
-        "name": "HTML5 & CSS3",
-        "level": "85%"
+        "name": "SPRING BOOT",
+        "level": "85%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
       },
       {
-        "name": "Bootstrap 4",
-        "level": "75%"
+        "name": "ANGULAR",
+        "level": "80%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
       },
       {
-        "name": "ES6 JS, JQuery & Node.Js ",
-        "level": "70%"
+        "name": "NODE.JS",
+        "level": "65%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
       },
       {
-        "name": "C, CPP & Python",
-        "level": "80%"
+        "name": "EXPRESS.JS",
+        "level": "65%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
       },
       {
-        "name": "Git & GitHub",
-        "level": "60%"
+        "name": "CPP",
+        "level": "80%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
       },
       {
-        "name": "Java EE",
-        "level": "40%"
+        "name": "HTML",
+        "level": "85%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
       },
       {
-        "name": "React.Js",
-        "level": "20%"
+        "name": "CSS",
+        "level": "70%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+      },
+      {
+        "name": "JAVASCRIPT",
+        "level": "90%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+      },
+      {
+        "name": "BOOTSTRAP",
+        "level": "80%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+      },
+      {
+        "name": "MYSQL",
+        "level": "85%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+      },
+      {
+        "name": "MONGO",
+        "level": "65%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+      },
+      {
+        "name": "FIREBASE",
+        "level": "65%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
+      },
+      {
+        "name": "GIT & GITHUB",
+        "level": "85%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+      },
+      {
+        "name": "BITBUCKET",
+        "level": "85%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original-wordmark.svg"
+      },
+      {
+        "name": "SELENIUM",
+        "level": "75%",
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Min-Max Normalization Calculator for Data Mining",
-        "category": "(Bootstrap 4 , JS)",
-        "image": "github.jpg",
-        "url": "https://github.com/AkP2809/minmax.github.io"
+        "title": "Minimalistic Weather App",
+        "category": "(Angular, Bootstrap, API)",
+        "image": "https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/62fe4bd8dc3b6b3e8b196fc9/screenshot_2022-08-18-14-25-34-0000.png",
+        "url": "https://optimistic-weather-data.netlify.app/"
       },
       {
-        "title": "Marketing Campaign for Banking Products Data",
-        "category": "Machine Learning Project",
-        "image": "github.jpg",
-        "url": "https://github.com/AkP2809/Intership-Studio-ML-Project"
+        "title": "Random User Card Generator",
+        "category": "(Angular, Bootstrap, API)",
+        "image": "https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/6456af30b623515c23288c8b/screenshot_2023-05-06-19-49-48-0000.png",
+        "url": "https://optimistic-card-generator.netlify.app/"
       },
       {
-        "title": "Event Countdown Timer",
-        "category": "(Bootstrap 4 , JS)",
-        "image": "github.jpg",
-        "url": "https://github.com/AkP2809/Event-Countdown-Timer"
+        "title": "To-Do Application",
+        "category": "(Angular, Bootstrap)",
+        "image": "https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/645767f5b623514448288c02/screenshot_2023-05-07-08-58-20-0000.png",
+        "url": "https://optimistic-todo.netlify.app/"
       },
       {
-        "title": "Ristorante Con Fusion",
-        "category": "Bootstrap 4 Project",
-        "image": "github.jpg",
-        "url": "https://github.com/AkP2809/Bootstrap-Full-Stack-Web-UI-Course-  "
+        "title": "Phone Authorization using Firebase",
+        "category": "(Angular, Bootstrap, Firebase)",
+        "image": "https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/645766a5b603730008414077/screenshot_2023-05-07-08-53-00-0000.png",
+        "url": "https://optimistic-phone-auth.netlify.app/"
       }
     ]
   }

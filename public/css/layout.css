@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/header-background_1.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -95,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #F06000; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -117,7 +117,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #F06000; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -222,8 +222,8 @@ ul#nav li.current a { color: #F06000; }
    background: #444;
 }
 #about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
+   background: #F06000;
+   color: #fff;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -251,7 +251,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #F06000;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -298,9 +298,9 @@ ul#nav li.current a { color: #F06000; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #ccc;
+  	background: rgb(248, 237, 235);
   	height: 42px;
-  	border-radius: 3px;
+  	border-radius: 9px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
@@ -311,18 +311,27 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
 	top: -36px;
 }
+.bars li .skillsDesc {
+   display: flex;
+}
+.bars li em .skillsLogo {
+   height: 30px;
+}
+.bars li em .skillsName {
+   margin-left: 10px;
+   margin-top: 5px;
+}
 .bar-expand {
    position: absolute;
    left: 0;
    top: 0;
-
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #F06000;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
-   border-radius: 3px 0 0 3px;
+   border-radius: 9px 0 0 9px;
 }
 /*
 .git {
@@ -427,7 +436,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #F06000;
 }
 
 #portfolio-wrapper {
@@ -448,6 +457,9 @@ ul#nav li.current a { color: #F06000; }
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+
+   width: fit-content;
+   border-radius: 9px;
 }
 .portfolio-item .item-wrap a {
    display: block;
@@ -807,7 +819,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #F06000; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -826,7 +838,7 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #ebeeee;
+   color: #F06000;
 }
 
 #contact h4 {
@@ -868,7 +880,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #F06000;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -883,11 +895,11 @@ call-to-action .button {
    margin-left: 26%;
 }
 #contact button.submit:hover {
-	color: #0D0D0D;
-	background: #fff;
+	color: #fff;
+	background: #F06000;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #F06000;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -946,7 +958,7 @@ footer {
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus { color: #F06000; }
 
 /* copyright */
 footer .copyright {
@@ -970,6 +982,9 @@ footer .copyright li:before {
 }
 footer .copyright  li:first-child:before {
     display: none;
+}
+footer .copyright:hover {
+   color: #F06000;
 }
 
 /* social links */
@@ -1014,4 +1029,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #F06000; }

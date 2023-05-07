@@ -10,7 +10,7 @@ class Header extends Component {
       var networks = this.props.data.social.map(function (network) {
         return (
           <li key={network.name}>
-            <a href={network.url}>
+            <a href={network.url} target="__blank">
               <i className={network.className}></i>
             </a>
           </li>
@@ -46,7 +46,7 @@ class Header extends Component {
             </li>
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Internships
+                Projects
               </a>
             </li>
             <li>
@@ -59,9 +59,9 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
+            <h1 className="responsive-headline">{name}</h1>
             <h3>
-              I'm a <span>{occupation}</span> hailing from India. {description}.
+              I'm a <span>{occupation}</span>. <br/> {description}
             </h3>
             <hr />
             <ul className="social">{networks}</ul>
